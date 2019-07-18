@@ -7,10 +7,8 @@
             randomNumber.push(i)
         }
     console.log(randomNumber)
-
-    // DOM-- documentget element by id display to div id "#randomNumber"
-
-
+//Jquery object display
+var randomNumber = $("#randomNumber")[0]
 // Assign the crystals random integer values
 
     // Give each crystal #id a random value 1-12 ; hidden value
@@ -20,17 +18,29 @@
   console.log(randomValue)
 
 // On click function for each image
-
-
-
-
+$ (".crystals").click(function() {
     // Add random value of crystal click to var userScore
+    var userScore = []
+} 
+
+
+
+
 
 
 
 // Function to win game 
 
-    // If userscore integer == random number score
+    // Winner looser Alert
+$ (".crystals").click () {
+    if (userScore == randomNumber) {
+        alert("Winner!")
+        else if (userScore > randomNumber) {
+            alert("Looser")
+        }
+    } } 
+    
+    
 
     // Add +1 to wins, documentgetelmentId to display number of wins
 
