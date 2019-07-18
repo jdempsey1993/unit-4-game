@@ -1,6 +1,12 @@
 // Show the user random integer number between 19-120
 
-    // Chose random integer value inbetween set parameters
+    // Chose random integer value inbetween set parameters - set as variable 
+
+    var randomNumber = []
+        for (var i =19; i<=120; i++){
+            randomNumber.push(i)
+        }
+    console.log(randomNumber)
 
     // DOM-- documentget element by id display to div id "#randomNumber"
 
@@ -9,14 +15,19 @@
 
     // Give each crystal #id a random value 1-12 ; hidden value
 
-
+  var randomValue = ("#crystalOne","#crystalTwo", "#crystalThree", "#crystalFour")
+  randomValue = (Math.floor(Math.random()* 12)+1)
+  console.log(randomValue)
 
 // On click function for each image
+
+
+
 
     // Add random value of crystal click to var userScore
 
 
-    
+
 // Function to win game 
 
     // If userscore integer == random number score
