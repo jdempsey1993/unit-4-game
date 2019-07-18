@@ -18,11 +18,9 @@ var randomNumber = $("#randomNumber")[0]
   console.log(randomValue)
 
 // On click function for each image
-$ (".crystals").click(function() {
+$(".crystals").on("click", function() {
     // Add random value of crystal click to var userScore
-    var userScore = []
-} 
-
+    
 
 
 
@@ -33,7 +31,7 @@ $ (".crystals").click(function() {
 
     // Winner looser Alert
 $ (".crystals").click () {
-    if (userScore == randomNumber) {
+    if (userScore === randomNumber) {
         alert("Winner!")
         else if (userScore > randomNumber) {
             alert("Looser")
