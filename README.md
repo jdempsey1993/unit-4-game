@@ -1,7 +1,8 @@
 # Crystal Game
 A click game utilizing javascript on-click events. Each crystal is assigned a random numeric value. The goal is to match a given number by clicking the crystals and increasing your score. If the score exceeds the number, the user looses.
+
 [View the project here.](https://jdempsey1993.github.io/unit-4-game/
-------
+---
 
 ![Image of project]()
 
